@@ -2,7 +2,7 @@
   "name": "hook-app",
   "version": "0.1.0",
   "private": true,
-  "homnepage":"http://Praffull13.github.io/react-hooks",
+  "homnepage": "http://Praffull13.github.io/react-hooks",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -16,12 +16,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-   
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
